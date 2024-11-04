@@ -100,17 +100,63 @@
         <h3>Самый вкусный каталог</h3>
         <p>Здесь вы найдете сладкое на любой повод</p>
         <div class="images">
-            <img src="" alt="" >
-            <img src="" alt="" >
-            <img src="" alt="" >
+            <img src="img/Project1.jpg" width="250" height="300" alt="" >
+            <img src="img/Project2.jpg" width="250" height="300" alt="" >
+            <img src="img/Project3.jpg" width="250" height="300" alt="" >
         </div>
         <div class="images">
-            <img src="" alt="" >
-            <img src="" alt="" >
-            <img src="" alt="" >
+            <img src="img/Project4.jpg" width="250" height="300" alt="" >
+            <img src="img/Project5.jpg" width="250" height="300" alt="" >
+            <img src="img/Project6.jpg" width="250" height="300" alt="" >
         </div>
         <a href="" class="see-all">Больше</a>
+        <div class="container email">
+            <h3>Остались вопросы?</h3>
+            <p>Заполните форму ниже</p>
+            <div class="block">
+                <div>
+                    <h4>Мы свяжемся с вами через 15 минут!</h4>
+                    <p>Оставьте адрес электронной почты</p>
+                </div>
+                <div>
+                    <input type="email" id="emailField" placeholder="Оставьте свой email">
+                    <button onclick="checkEmail()">Отправить</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<footer>
+    <div class="blocks container">
+        <div>
+            <span class="logo">Sweet Dreams</span>
+            <p>Оставайтесь в курсе новостей!</p>
+        </div>
+        <div>
+            <h4>О нас</h4>
+            <ul>
+                <li>Доставка и оплата</li>
+                <li>Отзывы</li>
+                <li>Каталог</li>
+                <li>Преимущества</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Наши контакты</h4>
+            <p>Telegram</p>
+            <p>+7(809)-521-67-45</p>
+        </div>
+    </div>
+    <hr>
+    <p>Copyright © 2024 Sweet Dreams</p>
+</footer>
+<script>
+    function checkEmail() {
+        let email = document.querySelector('#emailField').value;
+        if (!email.includes('@')) alert('Нет символа @');
+        else if (!email.includes('.')) alert('Нет символа .');
+        else alert('Все отлично!');
+    }
+</script>
 </body>
 </html>

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 body {
-    font-family: "DM Sans", serif;
+    font-family: "Oranienbaum", serif;
     font-weight: 400;
     color: black;
     font-size: 16px;
@@ -157,17 +157,17 @@ header nav ul li.btn a:hover {
     font-size: 35px;
     font-weight: 600;
     text-align: center;
-    width: 500px;
+    
 }
 
 .banner h3 {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .banner p {
     line-height: 170%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 550px;
     font-size: 20px;
 }
@@ -189,7 +189,10 @@ header nav ul li.btn a:hover {
     margin-right: auto;
 }
 .features h3 {
-    font-size: 30px;
+    font-size: 40px;
+}
+.features p {
+    font-size: 20px;
 }
 .features .info {
     display: flex;
@@ -203,4 +206,126 @@ header nav ul li.btn a:hover {
 }
 .features .info .block .img {
     margin-bottom: 15px;
+}
+.projects {
+    padding: 50px 0;
+}
+.projects h3 {
+    font-size: 45px;
+    text-align: center;
+}
+.projects p {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 25px;
+}
+.projects .images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.projects .see-all {
+    color: rgb(0, 0, 0);
+    background: #ee8e8e;
+    border-radius: 5px;
+    padding: 12px 23px;
+    display: block;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 60px;
+    margin: 0 auto;
+}
+.projects .see-all:hover {
+    transform: scale(1.1); 
+}
+
+.email {
+    padding-bottom: 120px;
+}
+.email h3 {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: left;
+}
+.email p {
+    text-align: left;
+}
+.email .block {
+    background: rgba(252, 193, 206, 0.719) 1%;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email .block h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.email .block p {
+    width: 500px;
+}
+.email .block input {
+    background: floralwhite;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 250px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    margin: 10px auto;
+}
+.email .block button {
+    background: #f89d9d;
+    padding: 9px 11px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+.email .block button {
+    background: #db6f6f;
+}
+.email .block button {
+    cursor: pointer;
+    border: none;
+    padding: 9px 13px;
+}
+footer {
+    background: #fcb3b3cc;
+    padding: 50px 0;
+}
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+footer .blocks .logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+footer .blocks p {
+    width: 300px;
+    margin: 15px 0;
+}
+footer .blocks h4{
+    font-weight: 500;
+    font-size: 17px;
+}
+footer .blocks ul {
+    list-style: none;
+}
+footer .blocks ul li {
+    margin-top: 7px;
+    opacity: 0.8;
+}
+footer hr{ 
+    margin: 30px 0;
+    border: 0;
+    height: 0.6px;
+    background: #ffffffcc;
+}
+footer > p {
+    text-align: center;
 }
