@@ -18,7 +18,7 @@ img {
 }
 
 .wrapper {
-    background: linear-gradient(0deg, rgba(255,244,244,1) 34%, rgba(255,214,214,1) 93%);
+    background: linear-gradient(0deg, rgba(234,213,251,1) 1%, rgba(255,214,214,1) 83%);
     width: 100%;
 }
 .container {
@@ -177,5 +177,30 @@ header nav ul li.btn a:hover {
 }
 .features {
     background: url('../img/BG.jpg') no-repeat center center fixed;
-    
+    background-size: cover;
+    padding: 80px 0;    
+}
+.features h3,
+.features p {
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features h3 {
+    font-size: 30px;
+}
+.features .info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.features .info .block {
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+}
+.features .info .block .img {
+    margin-bottom: 15px;
 }
