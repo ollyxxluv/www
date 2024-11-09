@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     color: black;
     font-size: 16px;
+    background: #f5d0d0;
 }
 a {
     text-decoration: none;
@@ -395,15 +396,16 @@ footer > p {
 .work .blocks .block .badge.green {
     background: #e5f7d8;
 }
-.work .more {
-    color: rgb(0, 0, 0);
-    background: #ee8e8e;
-    border-radius: 5px;
-    padding: 12px 23px;
-    
-    display: block;
-    transition: all 500ms ease;
+.hero-contacts h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+font-size: 33px;
 }
-.work .more:hover {
-    transform: scale(1.1);
+.hero-contacts p {
+    text-align: center;
+    font-size: 24px;
+}
+.hero-contacts img {
+    width: 95%;
 }
