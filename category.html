@@ -7,43 +7,51 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="wrapper">
     <header class="container">
         <span class="logo">Sweet Dreams</span>
         <nav>
             <ul>
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="about.html">О нас</a></li>
-                <li><a href="category.html">Категории</a></li>
+                <li class="active"><a href="category.html">Категории</a></li>
                 <li class="btn"><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
     </header>
-<div class="container hero-contacts">
-    <h1>Наши кондитерские</h1>
-    <p>находятся по всему миру</p>
-    <img src="img/map.png" alt="">
+<div class="search container">
+    <div class="search-category">
+    <h2>Найди и выбери свой лучший торт!</h2>
+    <input  type="text" placeholder="Поиск">
+    <img class="Loupe" src="img/Loupe.png" alt="Лупа">
+    <button type="button" onclick="alert('Настройки типа')">
+    <img src="img/switch.png" alt="Button Image">
+    </button>
 </div>
-<div class="feedback">
-    <div class="container">
-        <h2>Свяжитесь с нами</h2>
-        <p>мы вместе подберем для Вас подходящий вариант</p>
-        <form>
-            <div class="inline">
-                <div>
-                    <label>Имя</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Фамилия</label>
-                    <input type="text">
-                </div>
-            </div>
-            <label>Email</label>
-            <input type="email" class="one-line">
-            <label>Сообщение</label>
-            <textarea class="one-line"></textarea>
-            <button type="button">Отправить сообщение</button>
-        </form>
+</div>
+<div class="cakes">
+    <h2>Мы предлагаем вам:</h2>
+    <div class="blocks">
+        <div class="block">
+            <img src="img/cake1.png" alt="">
+        <h3>Шварцвальдский пирог</h3>
+        <p>5500 ₽</p>    
+        </div>
+        <div class="block">
+            <img src="img/cake2.png" alt="">
+            <h3>Королевский шоколадный торт "Тоблерон"</h3>
+        <p>7000 ₽</p>
+        </div>
+        <div class="block">
+            <img src="img/cake3.png" alt="">
+            <h3>Классический Наполено</h3>
+            <p>3250 ₽</p>
+        </div>
+        <div class="block">
+            <img src="img/cake4.png" alt="">
+            <h3>Радужный торт</h3>
+            <p>4000 ₽</p>
+        </div>
     </div>
 </div>
 <footer>
