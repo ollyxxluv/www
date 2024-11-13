@@ -517,8 +517,8 @@ position: absolute;
     width: 100%;
 }
 .cakes h2 {
-    font-size: 25px;
-    margin-bottom: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .cakes .blocks {
@@ -529,13 +529,21 @@ position: absolute;
     margin: 0 auto;
 
 }
-.cakes .blocks .block {
-    width: 18%;
+.cakes .blocks .block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8 {
+    width: 20%;
     border-radius: 10px;
     padding: 10px 20px;
     background: #fab5b5;
-    margin-top: 18px ;
+    margin-top: 75px ;
+
 }
+.cakes .blocks .block1,.block2,.block3,.block4{
+    height: 260px;
+}
+.cakes .blocks .block4,.block5,.block6,.block7,.block8 {
+height: 260px;
+}
+
 .cakes .button {
     margin: 0 auto;
     width: 850px;
@@ -553,3 +561,220 @@ position: absolute;
 .cakes .button .back:hover, .forward:hover {
     transform: scale(1.1);
 }
+.cakes .blocks .block1 img {
+   box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+   transition: 0.3s ease-in-out;
+   background-color:#fab5b5;
+}
+.cakes .blocks .block1 img:hover{
+    transform: scale(0.9);
+    margin-top: -90px;
+}
+.cakes .blocks .block1 .content1 {
+    text-align: center;
+    height: 45px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.cakes .blocks .block1:hover .content1 {
+    height: 200px;
+}
+.content1 p {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+.block1:hover .content1 p {
+    opacity: 1;
+}
+
+
+
+.cakes .blocks .block2 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block2 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block2 .content2 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block2:hover .content2 {
+     height: 200px;
+ }
+ .content2 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block2:hover .content2 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block3 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block3 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block3 .content3 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block3:hover .content3 {
+     height: 200px;
+ }
+ .content3 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block3:hover .content3 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block4 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block4 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block4 .content4 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block4:hover .content4 {
+     height: 200px;
+ }
+ .content4 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block4:hover .content4 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block5 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block5 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block5 .content5 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block5:hover .content5 {
+     height: 200px;
+ }
+ .content5 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block5:hover .content5 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block6 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block6 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block6 .content1 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block6:hover .content6 {
+     height: 200px;
+ }
+ .content6 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block6:hover .content6 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block7 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block7 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block7 .content1 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block7:hover .content7 {
+     height: 200px;
+ }
+ .content7 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block7:hover .content7 p {
+     opacity: 1;
+ }
+
+ .cakes .blocks .block8 img {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4); 
+    transition: 0.3s ease-in-out;
+    background-color:#fab5b5;
+ }
+ .cakes .blocks .block8 img:hover{
+     transform: scale(0.9);
+     margin-top: -90px;
+ }
+ .cakes .blocks .block8 .content8 {
+     text-align: center;
+     height: 45px;
+     overflow: hidden;
+     transition: 0.3s ease-in-out;
+ }
+ .cakes .blocks .block8:hover .content8 {
+     height: 200px;
+ }
+ .content8 p {
+     opacity: 0;
+     transition: 0.3s ease-in-out;
+     transition-delay: 0.1s;
+ }
+ .block8:hover .content8 p {
+     opacity: 1;
+ }
