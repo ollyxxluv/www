@@ -499,17 +499,57 @@ position: absolute;
 }
 
 .search-category button {
-    position: absolute;
+position: absolute;
  top: 67%;
  right: 105px;
  background: transparent;
  border: none;
  background-size: cover;
  filter: invert(100%);
- background-size: cover;
 }
 .search-category input::placeholder {
     transform: translateX(30px);
     font-size: 15px;
 
 } 
+.cakes {
+    padding: 65px 0;
+    width: 100%;
+}
+.cakes h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cakes .blocks {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 850px;
+    margin: 0 auto;
+
+}
+.cakes .blocks .block {
+    width: 18%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #fab5b5;
+    margin-top: 18px ;
+}
+.cakes .button {
+    margin: 0 auto;
+    width: 850px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.cakes .button .back, .forward {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #fab5b5;
+    margin-top: 18px ;
+    transition: all 500ms ease;
+}
+.cakes .button .back:hover, .forward:hover {
+    transform: scale(1.1);
+}
