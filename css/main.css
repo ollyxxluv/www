@@ -494,7 +494,7 @@ margin-bottom: 20px;
 .search-category .Loupe {
 position: absolute;
  top: 65%;
- left: 102px;
+ left: 63px;
 
 }
 
@@ -508,9 +508,7 @@ position: absolute;
  filter: invert(100%);
 }
 .search-category input::placeholder {
-    transform: translateX(30px);
     font-size: 15px;
-
 } 
 .cakes {
     padding: 65px 0;
